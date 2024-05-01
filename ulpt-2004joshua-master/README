@@ -1,7 +1,0 @@
-The user's project involves implementing a user-level preemptive thread library in C, which allows for the management of threads at a user level, offering more control and flexibility in handling concurrent tasks. Unlike kernel-level threads managed by the operating system, user-level threads are managed entirely by the application, making them lightweight and efficient for certain applications. The project includes functions such as create, exit, join, and schedule, which respectively handle the creation of threads, termination of threads, waiting for threads to finish, and scheduling of threads using a round-robin algorithm. These functions provide a framework for managing threads in a concurrent application, enabling efficient multitasking and resource sharing.
-
-During the development of the user-level preemptive thread library, the user relied on several external resources. They used IBM Documentation for insights into thread management and scheduling algorithms, Stack Overflow for resolving specific coding issues and best practices, and a YouTube channel called Code Vault for tutorials and explanations on advanced C programming concepts. These resources were instrumental in overcoming various challenges and ensuring the successful implementation of the thread library.
-
-IBM Documentation - pthread_create | https://www.ibm.com/docs/en/zos/2.4.0?topic=functions-pthread-create-create-thread
-Stack Overflow | https://stackoverflow.com/
-Code Vault YouTube Channel | https://www.youtube.com/@CodeVault
